@@ -5,10 +5,21 @@
 }
 
 .logo-left{
-    background-color: #ff6b6b;
+    background-color: #da1616;
+    padding: 3px;
+}
+
+.logo-left-middle{
+    background-color: #6c02f7;
+    padding: 3px;
+}
+
+.logo-right-middle{
+    background-color: #95ad7f;
     padding: 3px;
 }
 
 .logo-right{
+    background-color: #36f806e3;
     padding: 3px;
 }
