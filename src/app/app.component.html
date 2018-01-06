@@ -1,10 +1,17 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<app-navbar></app-navbar>
-<app-sidebar></app-sidebar>
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  </div>
-<h2>Here are some links to help you start: </h2>
+<app-navbar 
+  id="navBar" 
+  class="navbar navbar-dark fixed-top bg-dark">
+</app-navbar>
 
+<div class="container-fluid">
+  <div class="row" id="mainContent">
+      <app-sidebar 
+        id="sideBar" 
+        class="col-sm-3 col-md-2 d-none d-sm-block sidebar fixed">
+      </app-sidebar>
+      
+      <div class="col-sm-9" id="dashBoard">
+      </div>
+  </div>
+</div>
