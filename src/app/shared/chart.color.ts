@@ -1,4 +1,4 @@
-export const SAMPLE_LINECHART_COLOR : [
+export const SAMPLE_LINECHART_COLOR = [
     {
       backgroundColor: "rgba(6, 214, 116, 0.2)",
       borderColor: "rgba(0, 200, 140, 0.5)",

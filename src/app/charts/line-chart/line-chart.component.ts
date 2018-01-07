@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SAMPLE_LINECHART_COLORS } from '../../shared/chart.color'
+import { SAMPLE_LINECHART_COLOR } from '../../shared/chart.color'
 
 const SAMPLE_LINECHART_DATA : any[] = [
   {data:[12, 14, 18, 26, 40, 45, 49, 90, 23, 25, 63, 40],label:"Sentimental Analysis"},
@@ -24,7 +24,7 @@ export class LineChartComponent implements OnInit {
   public lineChartOptions : any = {
     responsive:true
   };
-  public lineChartColors = SAMPLE_LINECHART_COLORS;
+  public lineChartColors = SAMPLE_LINECHART_COLOR;
   ngOnInit() {
   }
 
