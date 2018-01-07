@@ -1,12 +1,12 @@
 #sideBar{
     height: 100vh;
-    padding-top: 100px;
+    padding-top: 75px;
     position: fixed;
     background-color: rgb(177, 179, 179);
 }
 
 #dashBoard{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 #navBar{
